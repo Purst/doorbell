@@ -111,6 +111,7 @@ public class DoorbellActivity extends Activity {
         // Camera code is complicated, so we've shoved it all in this closet class for you.
         mCamera = DoorbellCamera.getInstance();
         mCamera.initializeCamera(this, mCameraHandler, mOnImageAvailableListener);
+
     }
 
     private void initPIO() {

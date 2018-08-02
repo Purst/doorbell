@@ -99,6 +99,9 @@ public class DoorbellCamera {
         } catch (CameraAccessException cae) {
             Log.d(TAG, "Camera access exception", cae);
         }
+
+
+
     }
 
     /**
